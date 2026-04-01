@@ -19,7 +19,7 @@ function About() {
   return (
     <section id="about" className="scroll-mt-28 py-14" aria-labelledby="about-heading">
       <SectionTitle
-        title="เกี่ยวกับฉัน"
+        title="เเนะนำตัว"
         subtitle="ข้อมูลส่วนตัวด้านการทำงานและแนวทางการพัฒนาเว็บ"
       />
       <div className="grid gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:grid-cols-[220px,1fr] sm:p-7">
