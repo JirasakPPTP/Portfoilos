@@ -1,13 +1,13 @@
 ﻿import { useState } from "react";
 import SectionTitle from "../components/SectionTitle";
-import Profile from "../assets/66703889.jpg"
+import Profile from "../assets/imagespf.jpg"
 function About() {
   const [profileSrc, setProfileSrc] = useState("/profile.jpg");
 
   const highlights = [
     "พัฒนาเว็บแอปด้วย React และ JavaScript เป็นหลัก",
     "ออกแบบโครงสร้างคอมโพเนนต์ให้ขยายระบบต่อได้ง่าย",
-    "ปรับปรุง UI/UX และประสิทธิภาพหน้าเว็บให้โหลดไวขึ้น",
+    "ปรับปรุง และประสิทธิภาพหน้าเว็บให้โหลดไวขึ้น",
   ];
 
   const workInfo = [

@@ -8,7 +8,6 @@ const skills = [
   "Node.js",
   "Git",
   "REST APIs",
-  "Responsive Design",
 ];
 
 function Skills() {
@@ -16,7 +15,7 @@ function Skills() {
     <section id="skills" className="scroll-mt-28 py-14" aria-labelledby="skills-heading">
       <SectionTitle
         title="ทักษะ"
-        subtitle="เทคโนโลยีและแนวทางที่ฉันใช้ในการพัฒนาแอปที่พร้อมใช้งานจริง"
+        subtitle="สามารถทำงานร่วมกับผู้อื่นและสื่อสารในการพัฒนาโปรเจกต์ได้ มีความรับผิดชอบต่อหน้าที่ ทำงานภายใต้ภาวะความกดดันได้"
       />
       <div
         className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4"

@@ -13,7 +13,7 @@ function Hero() {
           id="hero-heading"
           className="mt-3 text-4xl font-extrabold leading-tight text-slate-900 sm:text-6xl"
         >
-          ประสบการณ์เว็บไซต์
+          ประสบการณ์
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-slate-600">
           พัฒนาอินเทอร์เฟซที่ใช้งานง่าย เน้นประสิทธิภาพ และออกแบบโครงสร้าง
