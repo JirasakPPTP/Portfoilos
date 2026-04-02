@@ -1,6 +1,5 @@
 const navLinks = [
-  { href: "#home", label: "หน้าแรก" },
-  { href: "#about", label: "เเนะนำตัว" },
+  { href: "#about", label: "แนะนำตัว" },
   { href: "#skills", label: "ทักษะ" },
   { href: "#projects", label: "ผลงาน" },
   { href: "#contact", label: "ติดต่อ" },

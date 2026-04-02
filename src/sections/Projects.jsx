@@ -6,7 +6,7 @@ const projects = [
     title: "Dashboard",
     description:
       "แดชบอร์การเก็บข้อมูล ",
-    tech: ["React", "CSS", "Node.js", "MongoDB"],
+    tech: ["Frontend: HTML, CSS, JavaScript, Bootstrap/Tailwind Backend PHP, Node.js Database MySQL, MongoDB"],
     github: "https://github.com/JirasakPPTP/Dashboard-management",
     demo: "https://dashboard-management-ochre.vercel.app",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Furniture-ecommerce",
     description:
       "หน้าร้านออนไลน์แบบ Responsive รองรับการกรองสินค้า จัดการตะกร้า และขั้นตอนชำระเงิน",
-    tech: [" React, tailwindcss, Node.js, MongoDB"],
+    tech: [" Frontend: HTML, CSS, JavaScript, Bootstrap/Tailwind Backend PHP, Node.js Database MySQL, MongoDB"],
     github: "https://github.com/JirasakPPTP/Furniture_ecommerce.git",
     demo: "https://furniture-ecommerce-frontend-theta.vercel.app/",
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "Realitime_chat",
     description:
       "แอปเกี่ยวกับการพูดคุยเเละสามารถติดต่อกันได้",
-    tech: ["React, tailwindcss, Node.js, MongoDB"],
+    tech: ["Frontend: HTML, CSS, JavaScript, Bootstrap/Tailwind Backend PHP, Node.js Database MySQL, MongoDB"],
     github: "https://github.com/JirasakPPTP/Realitime_chat",
     demo: "https://realitime-chat.vercel.app/",
   },
