@@ -3,8 +3,8 @@ import SectionTitle from "../components/SectionTitle";
 import Profile from "../assets/profile.jpg";
 
 function About() {
-  const [profileSrc, setProfileSrc] = useState("/profile.jpg");
-  const resumeLink = "/resume.jpg";
+  const [profileSrc, setProfileSrc] = useState(Profile);
+  const resumeLink = `${import.meta.env.BASE_URL}resume.png`;
 
   const highlights = [
     "พัฒนาเว็บแอปด้วย React และ JavaScript เป็นหลัก",
@@ -28,10 +28,10 @@ function About() {
       <div className="grid gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:grid-cols-[200px,1fr] sm:p-7">
         <div className="flex justify-center sm:justify-start">
           <img
-            src={Profile}
+            src={profileSrc}
             alt="รูปโปรไฟล์"
             className="h-auto w-full max-w-[180px] rounded-2xl border border-slate-200 bg-slate-100 object-contain shadow-sm"
-            onError={() => setProfileSrc("/profile-avatar.svg")}
+            onError={() => setProfileSrc(`${import.meta.env.BASE_URL}profile-avatar.svg`)}
           />
         </div>
 
