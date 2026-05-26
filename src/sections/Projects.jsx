@@ -3,14 +3,6 @@ import SectionTitle from "../components/SectionTitle";
 
 const projects = [
   {
-    title: "Dashboard",
-    description:
-      "แดชบอร์การเก็บข้อมูล ",
-    tech: ["Frontend: HTML, CSS, JavaScript, Bootstrap/Tailwind Backend PHP, Node.js Database MySQL, MongoDB"],
-    github: "https://github.com/JirasakPPTP/Dashboard-management",
-    demo: "https://dashboard-management-ochre.vercel.app",
-  },
-  {
     title: "Furniture-ecommerce",
     description:
       "หน้าร้านออนไลน์แบบ Responsive รองรับการกรองสินค้า จัดการตะกร้า และขั้นตอนชำระเงิน",
